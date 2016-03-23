@@ -1,0 +1,21 @@
+{
+  "name": "glass",
+  "description": "Personal Website",
+  "main": "app.js",
+  "moduleType": [],
+  "authors": [
+    "bleepbloopsify"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}
