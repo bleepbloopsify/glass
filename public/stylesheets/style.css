@@ -6,3 +6,10 @@ body {
 a {
   color: #00B7FF;
 }
+
+form{
+  position:absolute;
+  padding-left:auto;
+  padding-right:auto;
+  text-align: right;
+}
