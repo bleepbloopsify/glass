@@ -3,14 +3,14 @@ extends layout
 block content
   h1 CTF Login
   
-  form(method="GET", action"/login")
+  form(method="POST", action"/login")
     label(for="username") Username: 
     input(type="text", name="username", placeholder="JohnDoe")
     br
     label(for="password") Password: 
     input(type="password", name="password", placeholder="dogtags")
     br
-    input(type="submit", value="Login")
+    input#button(name="", type="button", value="Login")
     
 block endscript
   script(src="javascripts/index.js")
